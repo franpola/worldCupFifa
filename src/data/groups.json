@@ -1,0 +1,102 @@
+{
+  "tournament": "FIFA World Cup 2026",
+  "lastUpdated": "2026-05-31T00:00:00Z",
+  "groups": {
+    "A": {
+      "teams": [
+        { "id": "usa", "name": "Estados Unidos", "flag": "🇺🇸", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "pan", "name": "Panamá", "flag": "🇵🇦", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "boh", "name": "Bosnia-Herzegovina", "flag": "🇧🇦", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "mor", "name": "Marruecos", "flag": "🇲🇦", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      ]
+    },
+    "B": {
+      "teams": [
+        { "id": "arg", "name": "Argentina", "flag": "🇦🇷", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "chi", "name": "Chile", "flag": "🇨🇱", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "alb", "name": "Albania", "flag": "🇦🇱", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "ukr", "name": "Ucrania", "flag": "🇺🇦", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      ]
+    },
+    "C": {
+      "teams": [
+        { "id": "mex", "name": "México", "flag": "🇲🇽", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "aus", "name": "Australia", "flag": "🇦🇺", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "egy", "name": "Egipto", "flag": "🇪🇬", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "cri", "name": "Costa Rica", "flag": "🇨🇷", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      ]
+    },
+    "D": {
+      "teams": [
+        { "id": "fra", "name": "Francia", "flag": "🇫🇷", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "civ", "name": "Costa de Marfil", "flag": "🇨🇮", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "tun", "name": "Túnez", "flag": "🇹🇳", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "hnd", "name": "Honduras", "flag": "🇭🇳", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      ]
+    },
+    "E": {
+      "teams": [
+        { "id": "esp", "name": "España", "flag": "🇪🇸", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "bra", "name": "Brasil", "flag": "🇧🇷", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "jpn", "name": "Japón", "flag": "🇯🇵", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "cmr", "name": "Camerún", "flag": "🇨🇲", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      ]
+    },
+    "F": {
+      "teams": [
+        { "id": "ger", "name": "Alemania", "flag": "🇩🇪", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "bel", "name": "Bélgica", "flag": "🇧🇪", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "ksa", "name": "Arabia Saudí", "flag": "🇸🇦", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "nzl", "name": "Nueva Zelanda", "flag": "🇳🇿", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      ]
+    },
+    "G": {
+      "teams": [
+        { "id": "por", "name": "Portugal", "flag": "🇵🇹", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "den", "name": "Dinamarca", "flag": "🇩🇰", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "nig", "name": "Nigeria", "flag": "🇳🇬", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "ecu", "name": "Ecuador", "flag": "🇪🇨", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      ]
+    },
+    "H": {
+      "teams": [
+        { "id": "eng", "name": "Inglaterra", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "ned", "name": "Países Bajos", "flag": "🇳🇱", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "irn", "name": "Irán", "flag": "🇮🇷", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "gnb", "name": "Guinea-Bisáu", "flag": "🇬🇼", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      ]
+    },
+    "I": {
+      "teams": [
+        { "id": "cro", "name": "Croacia", "flag": "🇭🇷", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "sen", "name": "Senegal", "flag": "🇸🇳", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "kor", "name": "Corea del Sur", "flag": "🇰🇷", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "can", "name": "Canadá", "flag": "🇨🇦", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      ]
+    },
+    "J": {
+      "teams": [
+        { "id": "ita", "name": "Italia", "flag": "🇮🇹", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "col", "name": "Colombia", "flag": "🇨🇴", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "sne", "name": "Guinea", "flag": "🇬🇳", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "nor", "name": "Noruega", "flag": "🇳🇴", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      ]
+    },
+    "K": {
+      "teams": [
+        { "id": "uru", "name": "Uruguay", "flag": "🇺🇾", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "qat", "name": "Qatar", "flag": "🇶🇦", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "idn", "name": "Indonesia", "flag": "🇮🇩", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "mli", "name": "Mali", "flag": "🇲🇱", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      ]
+    },
+    "L": {
+      "teams": [
+        { "id": "swi", "name": "Suiza", "flag": "🇨🇭", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "mex2", "name": "Venezuela", "flag": "🇻🇪", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "cze", "name": "República Checa", "flag": "🇨🇿", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+        { "id": "tgo", "name": "Tanzania", "flag": "🇹🇿", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      ]
+    }
+  }
+}
