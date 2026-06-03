@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-02T01:59:58.731Z",
+  "lastUpdated": "2026-06-03T02:09:54.743Z",
   "groups": {
     "A": {
       "teams": [
@@ -250,7 +250,7 @@
         },
         {
           "id": "cuw",
-          "name": "Curacao",
+          "name": "Curaçao",
           "flag": "🏳️",
           "played": 0,
           "won": 0,
