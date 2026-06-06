@@ -4,7 +4,10 @@ const FLAG_OVERRIDES = {
 }
 export default function Flag({ cc, size = 24 }) {
   const code = cc?.toLowerCase().replace('-', '_')
-  return (
+  const src = FLAG_OVERRIDES[code]
+    || `https://flagicons.lipis.dev/flags/4x3/${code}.svg`
+ 
+    return (
     <img
       src={`https://flagcdn.com/w40/${code}.png`}
       width={size}
