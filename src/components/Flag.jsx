@@ -1,6 +1,6 @@
-const SPECIAL_FLAGS = {
-  'gb-eng': 'https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/40px-Flag_of_England.svg.png',
-  'gb-sct': 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/40px-Flag_of_Scotland.svg.png',
+const FLAG_OVERRIDES = {
+  'gb-eng': 'https://flagicons.lipis.dev/flags/4x3/gb-eng.svg',
+  'gb-sct': 'https://flagicons.lipis.dev/flags/4x3/gb-sct.svg',
 }
 export default function Flag({ cc, size = 24 }) {
   const code = cc?.toLowerCase().replace('-', '_')
