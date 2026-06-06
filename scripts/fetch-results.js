@@ -28,30 +28,20 @@ async function fetchStandings() {
   }
 }
 
-async function fetchScoreboard() {
-  try {
-    console.log('📡 Fetching scoreboard from ESPN...');
-    const data = await fetchJSON(`${ESPN_BASE}/scoreboard`);
-    return data;
-  } catch (err) {
-    console.error('❌ Error fetching scoreboard:', err.message);
-    return null;
-  }
-}
-
 function parseStandings(espnData, localGroups) {
   if (!espnData?.children) {
     console.log('⚠️  No standings data available yet, keeping local data');
     return localGroups;
   }
 
-  const updated = { ...localGroups };
+  const updated = JSON.parse(JSON.stringify(localGroups)); // deep clone
 
   for (const group of espnData.children) {
     const groupLetter = group.abbreviation?.replace('Group ', '').trim();
     if (!groupLetter || !updated.groups[groupLetter]) continue;
 
     const standings = group.standings?.entries || [];
+    const localTeams = updated.groups[groupLetter].teams;
 
     updated.groups[groupLetter].teams = standings.map(entry => {
       const team = entry.team;
@@ -60,10 +50,17 @@ function parseStandings(espnData, localGroups) {
         stats[stat.name] = stat.value;
       }
 
+      // Find local team by id to preserve Spanish name and cc code
+      const localTeam = localTeams.find(
+        t => t.id === team.abbreviation?.toLowerCase() || t.id === team.id
+      ) || localTeams.find(
+        t => t.name.toLowerCase().includes(team.displayName.toLowerCase().split(' ')[0].toLowerCase())
+      );
+
       return {
-        id: team.abbreviation?.toLowerCase() || team.id,
-        name: team.displayName,
-        flag: updated.groups[groupLetter].teams.find(t => t.id === team.abbreviation?.toLowerCase())?.flag || '🏳️',
+        id: localTeam?.id || team.abbreviation?.toLowerCase() || team.id,
+        name: localTeam?.name || team.displayName,  // keep Spanish name
+        cc: localTeam?.cc || '',                     // keep cc code for flags
         played: stats.gamesPlayed || 0,
         won: stats.wins || 0,
         drawn: stats.ties || 0,
@@ -79,18 +76,14 @@ function parseStandings(espnData, localGroups) {
 }
 
 async function main() {
-  // Load current local data
   const raw = fs.readFileSync(DATA_PATH, 'utf-8');
   const localData = JSON.parse(raw);
 
-  // Fetch from ESPN
   const standingsData = await fetchStandings();
 
-  // Merge
   const updatedGroups = parseStandings(standingsData, localData);
   updatedGroups.lastUpdated = new Date().toISOString();
 
-  // Write back
   fs.writeFileSync(DATA_PATH, JSON.stringify(updatedGroups, null, 2));
   console.log(`✅ Data updated at ${updatedGroups.lastUpdated}`);
 }
