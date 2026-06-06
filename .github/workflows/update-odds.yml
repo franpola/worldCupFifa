@@ -1,0 +1,29 @@
+name: Update Odds
+
+on:
+  schedule:
+    - cron: '0 8,20 * * *'  # 10:00 y 22:00 hora España
+  workflow_dispatch:
+
+jobs:
+  update-odds:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+      - name: Fetch odds
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: node scripts/fetch-odds.js
+
+      - name: Commit if changed
+        run: |
+          git config user.name "odds-bot"
+          git config user.email "bot@worldcup-dashboard"
+          git add src/data/odds.json
+          git diff --staged --quiet || git commit -m "🎰 Update odds $(date -u '+%Y-%m-%d %H:%M')"
+          git push

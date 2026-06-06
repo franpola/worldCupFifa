@@ -4,12 +4,14 @@ import GroupCard from './components/GroupCard.jsx'
 import Header from './components/Header.jsx'
 import Fixtures from './components/Fixtures.jsx'
 import Bracket from './components/Bracket.jsx'
+import Odds from './components/Odds.jsx'
 import styles from './App.module.css'
 
 const TABS = [
   { id: 'groups',   label: 'Grupos' },
   { id: 'fixtures', label: 'Calendario' },
   { id: 'bracket',  label: 'Eliminatorias' },
+  { id: 'odds',     label: 'Cuotas' },
 ]
 
 export default function App() {
@@ -70,6 +72,7 @@ export default function App() {
 
       {tab === 'fixtures' && <Fixtures />}
       {tab === 'bracket' && <Bracket />}
+      {tab === 'odds' && <Odds />}
 
       <footer className={styles.footer}>
         <span>FIFA World Cup 2026 · USA · México · Canadá</span>
