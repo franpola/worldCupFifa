@@ -18,7 +18,7 @@
       { "id": "bra", "name": "Brasil",       "cc": "br", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
       { "id": "mar", "name": "Marruecos",    "cc": "ma", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
       { "id": "hai", "name": "Haití",        "cc": "ht", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
-      { "id": "sco", "name": "Escocia",      "cc": "gb-sct", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
+      { "id": "sco", "name": "Escocia",      "cc": "gb_sct", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
     ]},
     "D": { "teams": [
       { "id": "usa", "name": "Estados Unidos","cc": "us", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
@@ -69,7 +69,7 @@
       { "id": "cod", "name": "R.D. Congo",   "cc": "cd", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
     ]},
     "L": { "teams": [
-      { "id": "eng", "name": "Inglaterra",   "cc": "gb-eng", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
+      { "id": "eng", "name": "Inglaterra",   "cc": "gb_eng", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
       { "id": "cro", "name": "Croacia",      "cc": "hr", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
       { "id": "gha", "name": "Ghana",        "cc": "gh", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 },
       { "id": "pan", "name": "Panamá",       "cc": "pa", "played": 0, "won": 0, "drawn": 0, "lost": 0, "gf": 0, "ga": 0, "pts": 0 }
