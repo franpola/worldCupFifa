@@ -124,3 +124,9 @@
   border: 1px solid var(--border);
   border-radius: 6px;
 }
+
+@media (max-width: 600px) {
+  .container { padding: 0 12px 32px; }
+  .round { min-width: 150px; }
+  .slotName { font-size: 10px; }
+}
