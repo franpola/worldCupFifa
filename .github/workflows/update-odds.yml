@@ -17,7 +17,7 @@ jobs:
           node-version: '20'
       - name: Fetch odds
         env:
-          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+          ODDS_API_KEY: 41411fc3ab527a17f79fc3bf8a8c8d47
         run: node scripts/fetch-odds.js
 
       - name: Commit if changed
