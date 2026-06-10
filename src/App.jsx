@@ -17,22 +17,54 @@ const TABS = [
 export default function App() {
   const [tab, setTab] = useState('groups')
   const [activeGroup, setActiveGroup] = useState(null)
+  const [menuOpen, setMenuOpen] = useState(false)
   const groups = Object.entries(groupsData.groups)
+
+  function selectTab(id) {
+    setTab(id)
+    setMenuOpen(false)
+  }
+
+  const currentLabel = TABS.find(t => t.id === tab)?.label
 
   return (
     <div className={styles.app}>
       <Header lastUpdated={groupsData.lastUpdated} />
 
+      {/* Desktop tabs */}
       <div className={styles.tabs}>
         {TABS.map(t => (
           <button
             key={t.id}
             className={`${styles.tab} ${tab === t.id ? styles.activeTab : ''}`}
-            onClick={() => setTab(t.id)}
+            onClick={() => selectTab(t.id)}
           >
             {t.label}
           </button>
         ))}
+      </div>
+
+      {/* Mobile hamburger */}
+      <div className={styles.mobileNav}>
+        <button className={styles.hamburger} onClick={() => setMenuOpen(!menuOpen)}>
+          <span className={styles.currentTab}>{currentLabel}</span>
+          <span className={`${styles.hamburgerIcon} ${menuOpen ? styles.open : ''}`}>
+            <span /><span /><span />
+          </span>
+        </button>
+        {menuOpen && (
+          <div className={styles.mobileMenu}>
+            {TABS.map(t => (
+              <button
+                key={t.id}
+                className={`${styles.mobileMenuItem} ${tab === t.id ? styles.mobileMenuActive : ''}`}
+                onClick={() => selectTab(t.id)}
+              >
+                {t.label}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
       {tab === 'groups' && (
