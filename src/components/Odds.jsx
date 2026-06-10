@@ -89,12 +89,12 @@ function EventCard({ event }) {
           <div className={styles.teams}>
             <div className={styles.team}>
               {homecc && <Flag cc={homecc} size={20} />}
-              <span>{event.homeTeam}</span>
+              <span>{translate(event.homeTeam)}</span>
             </div>
             <span className={styles.vs}>VS</span>
             <div className={styles.team}>
               {awaycc && <Flag cc={awaycc} size={20} />}
-              <span>{event.awayTeam}</span>
+              <span>{translate(event.awayTeam)}</span>
             </div>
           </div>
         </div>
