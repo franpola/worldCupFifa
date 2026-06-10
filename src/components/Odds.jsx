@@ -1,18 +1,26 @@
 import { useState } from 'react'
 import oddsData from '../data/odds.json'
-import fixturesData from '../data/fixtures.json'
 import Flag from './Flag.jsx'
 import styles from './Odds.module.css'
 
-// Match odds to fixtures by team name (fuzzy)
-function matchTeam(oddsName, fixtures) {
-  const lower = oddsName.toLowerCase()
-  return fixtures.find(f =>
-    f.home.toLowerCase().includes(lower.split(' ')[0]) ||
-    f.away.toLowerCase().includes(lower.split(' ')[0]) ||
-    lower.includes(f.home.toLowerCase().split(' ')[0]) ||
-    lower.includes(f.away.toLowerCase().split(' ')[0])
-  )
+const TEAM_MAP = {
+  'mexico': 'mx', 'south africa': 'za', 'south korea': 'kr', 'czechia': 'cz',
+  'canada': 'ca', 'bosnia and herzegovina': 'ba', 'bosnia': 'ba', 'qatar': 'qa', 'switzerland': 'ch',
+  'brazil': 'br', 'morocco': 'ma', 'haiti': 'ht', 'scotland': 'gb-sct',
+  'united states': 'us', 'usa': 'us', 'paraguay': 'py', 'australia': 'au', 'turkey': 'tr',
+  'germany': 'de', 'curacao': 'cw', 'ivory coast': 'ci', "cote d'ivoire": 'ci', 'ecuador': 'ec',
+  'netherlands': 'nl', 'japan': 'jp', 'tunisia': 'tn', 'sweden': 'se',
+  'belgium': 'be', 'egypt': 'eg', 'iran': 'ir', 'new zealand': 'nz',
+  'spain': 'es', 'cape verde': 'cv', 'saudi arabia': 'sa', 'uruguay': 'uy',
+  'france': 'fr', 'senegal': 'sn', 'norway': 'no', 'iraq': 'iq',
+  'argentina': 'ar', 'algeria': 'dz', 'austria': 'at', 'jordan': 'jo',
+  'portugal': 'pt', 'colombia': 'co', 'uzbekistan': 'uz',
+  'dr congo': 'cd', 'democratic republic of congo': 'cd', 'congo dr': 'cd',
+  'england': 'gb-eng', 'croatia': 'hr', 'ghana': 'gh', 'panama': 'pa',
+}
+
+function getCC(teamName) {
+  return TEAM_MAP[teamName.toLowerCase()] || ''
 }
 
 function OddsValue({ value, isBest }) {
@@ -27,18 +35,8 @@ function OddsValue({ value, isBest }) {
 function EventCard({ event }) {
   const [expanded, setExpanded] = useState(false)
 
-  // Find matching fixture for flags
-  const homeFixture = fixturesData.find(f =>
-    event.homeTeam.toLowerCase().includes(f.home.toLowerCase().split(' ')[0]) ||
-    f.home.toLowerCase().includes(event.homeTeam.toLowerCase().split(' ')[0])
-  )
-  const awayFixture = fixturesData.find(f =>
-    event.awayTeam.toLowerCase().includes(f.away.toLowerCase().split(' ')[0]) ||
-    f.away.toLowerCase().includes(event.awayTeam.toLowerCase().split(' ')[0])
-  )
-
-  const homecc = homeFixture?.homecc || awayFixture?.awaycc
-  const awaycc = awayFixture?.awaycc || homeFixture?.homecc
+  const homecc = getCC(event.homeTeam)
+  const awaycc = getCC(event.awayTeam)
 
   const date = new Date(event.commenceTime)
   const dateStr = date.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric', month: 'short' })
@@ -62,7 +60,6 @@ function EventCard({ event }) {
           </div>
         </div>
 
-        {/* Best odds summary */}
         <div className={styles.bestOdds}>
           <div className={styles.oddCell}>
             <span className={styles.oddLabel}>1</span>
