@@ -90,8 +90,9 @@
     -webkit-overflow-scrolling: touch;
   }
   .tab {
-    font-size: 15px;
-    padding: 8px 14px;
+    font-size: 13px;
+    padding: 8px 10px;
+    letter-spacing: 1px;
     white-space: nowrap;
   }
   .nav {
