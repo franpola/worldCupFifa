@@ -17,6 +17,12 @@ const TEAM_MAP = {
   'portugal': 'pt', 'colombia': 'co', 'uzbekistan': 'uz',
   'dr congo': 'cd', 'democratic republic of congo': 'cd', 'congo dr': 'cd',
   'england': 'gb-eng', 'croatia': 'hr', 'ghana': 'gh', 'panama': 'pa',
+  'czech republic': 'cz',
+  'bosnia & herzegovina': 'ba',
+  'curaçao': 'cw',
+  'dr congo': 'cd',
+  'ivory coast': 'ci',
+  'turkey': 'tr',
 }
 const NAME_MAP = {
   'Mexico': 'México', 'South Africa': 'Sudáfrica', 'South Korea': 'Corea del Sur',
@@ -36,6 +42,17 @@ const NAME_MAP = {
   'Portugal': 'Portugal', 'Colombia': 'Colombia', 'Uzbekistan': 'Uzbekistán',
   'DR Congo': 'R.D. Congo', 'Democratic Republic of Congo': 'R.D. Congo',
   'England': 'Inglaterra', 'Croatia': 'Croacia', 'Ghana': 'Ghana', 'Panama': 'Panamá',
+  'Czech Republic': 'Chequia',
+  'Bosnia & Herzegovina': 'Bosnia',
+  'Curaçao': 'Curazao',
+  'DR Congo': 'R.D. Congo',
+  'Ivory Coast': 'Costa de Marfil',
+  'Turkey': 'Turquía',
+  'South Korea': 'Corea del Sur',
+  'South Africa': 'Sudáfrica',
+  'Netherlands': 'Países Bajos',
+  'USA': 'Estados Unidos',
+  'Switzerland': 'Suiza',
 }
 
 function translate(name) {
