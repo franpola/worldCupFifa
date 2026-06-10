@@ -1,6 +1,9 @@
 const FLAG_OVERRIDES = {
   'gb-eng': 'https://flagicons.lipis.dev/flags/4x3/gb-eng.svg',
   'gb-sct': 'https://flagicons.lipis.dev/flags/4x3/gb-sct.svg',
+  'cz': 'https://flagicons.lipis.dev/flags/4x3/cz.svg',
+  'cw': 'https://flagicons.lipis.dev/flags/4x3/cw.svg',
+  'ba': 'https://flagicons.lipis.dev/flags/4x3/ba.svg',
 }
 
 export default function Flag({ cc, size = 24 }) {

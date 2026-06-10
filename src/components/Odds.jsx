@@ -18,7 +18,29 @@ const TEAM_MAP = {
   'dr congo': 'cd', 'democratic republic of congo': 'cd', 'congo dr': 'cd',
   'england': 'gb-eng', 'croatia': 'hr', 'ghana': 'gh', 'panama': 'pa',
 }
+const NAME_MAP = {
+  'Mexico': 'México', 'South Africa': 'Sudáfrica', 'South Korea': 'Corea del Sur',
+  'Czechia': 'Chequia', 'Canada': 'Canadá', 'Bosnia and Herzegovina': 'Bosnia',
+  'Switzerland': 'Suiza', 'Brazil': 'Brasil', 'Morocco': 'Marruecos',
+  'Haiti': 'Haití', 'Scotland': 'Escocia', 'United States': 'Estados Unidos',
+  'USA': 'Estados Unidos', 'Paraguay': 'Paraguay', 'Australia': 'Australia',
+  'Turkey': 'Turquía', 'Germany': 'Alemania', 'Curacao': 'Curazao',
+  'Ivory Coast': 'Costa de Marfil', "Cote d'Ivoire": 'Costa de Marfil',
+  'Ecuador': 'Ecuador', 'Netherlands': 'Países Bajos', 'Japan': 'Japón',
+  'Tunisia': 'Túnez', 'Sweden': 'Suecia', 'Belgium': 'Bélgica',
+  'Egypt': 'Egipto', 'Iran': 'Irán', 'New Zealand': 'Nueva Zelanda',
+  'Spain': 'España', 'Cape Verde': 'Cabo Verde', 'Saudi Arabia': 'Arabia Saudí',
+  'Uruguay': 'Uruguay', 'France': 'Francia', 'Senegal': 'Senegal',
+  'Norway': 'Noruega', 'Iraq': 'Irak', 'Argentina': 'Argentina',
+  'Algeria': 'Argelia', 'Austria': 'Austria', 'Jordan': 'Jordania',
+  'Portugal': 'Portugal', 'Colombia': 'Colombia', 'Uzbekistan': 'Uzbekistán',
+  'DR Congo': 'R.D. Congo', 'Democratic Republic of Congo': 'R.D. Congo',
+  'England': 'Inglaterra', 'Croatia': 'Croacia', 'Ghana': 'Ghana', 'Panama': 'Panamá',
+}
 
+function translate(name) {
+  return NAME_MAP[name] || name
+}
 function getCC(teamName) {
   return TEAM_MAP[teamName.toLowerCase()] || ''
 }
