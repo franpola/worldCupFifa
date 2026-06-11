@@ -20,10 +20,12 @@ jobs:
           ODDS_API_KEY: 41411fc3ab527a17f79fc3bf8a8c8d47
         run: node scripts/fetch-odds.js
 
-      - name: Commit if changed
+      - name: Commit and push if changed
+        if: steps.changes.outputs.changed == 'true'
         run: |
-          git config user.name "odds-bot"
+          git config user.name "worldcup-bot"
           git config user.email "bot@worldcup-dashboard"
-          git add src/data/odds.json
-          git diff --staged --quiet || git commit -m "🎰 Update odds $(date -u '+%Y-%m-%d %H:%M')"
+          git add src/data/groups.json
+          git commit -m "🤖 Update results $(date -u '+%Y-%m-%d')"
+          git pull --rebase origin main
           git push
