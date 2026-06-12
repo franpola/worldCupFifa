@@ -44,21 +44,7 @@ jobs:
           git add src/data/groups.json
           git commit -m "🤖 Update results $(date -u '+%Y-%m-%d')"
 
-          git fetch origin main
-
-          echo "=== LOCAL ==="
-          git log --oneline --graph --decorate -10
-
-          echo "=== REMOTO ==="
-          git log --oneline --graph --decorate origin/main -10
-
-          echo "=== REBASE ==="
-          git rebase origin/main
-
-          echo "=== STATUS ==="
-          git status
-
-          git push origin HEAD:main
+          git push --force
 
         #  git fetch origin main
         #  git rebase origin/main
