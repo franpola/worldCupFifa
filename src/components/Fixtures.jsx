@@ -6,8 +6,8 @@ import styles from './Fixtures.module.css'
 const GROUPS = ['Todos','A','B','C','D','E','F','G','H','I','J','K','L']
 
 function formatDate(dateStr) {
-  const d = new Date(dateStr + 'T12:00:00')
-  return d.toLocaleDateString('es-ES', { timezone: 'Europe/Madrid', weekday: 'short', day: 'numeric', month: 'short' })
+  const d = new Date(dateStr)
+  return d.toLocaleDateString('es-ES', { timeZone: 'Europe/Madrid', weekday: 'short', day: 'numeric', month: 'short' })
 }
 
 function MatchCard({ match }) {
