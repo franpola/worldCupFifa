@@ -5,11 +5,9 @@ import styles from './Fixtures.module.css'
 
 const GROUPS = ['Todos','A','B','C','D','E','F','G','H','I','J','K','L']
 
-function formatDate(dateStr) {
-  const d = new Date(dateStr)
-   const dateSt = date.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric', month: 'short' })
-   const timeStr = date.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Madrid' })
-}
+function formatDate(dateStr) { 
+  const d = new Date(dateStr + 'T12:00:00') 
+  return d.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric', month: 'short' }) }
 
 function MatchCard({ match }) {
   const played = match.scoreHome !== null && match.scoreAway !== null
