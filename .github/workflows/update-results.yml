@@ -2,7 +2,7 @@ name: Update World Cup Results
 
 on:
   schedule:
-    - cron: '30 23 * * *'
+    - cron: '1 23,7,15 * * *'
   workflow_dispatch:
 
 concurrency:
