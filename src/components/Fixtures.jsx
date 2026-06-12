@@ -7,7 +7,7 @@ const GROUPS = ['Todos','A','B','C','D','E','F','G','H','I','J','K','L']
 
 function formatDate(dateStr) {
   const d = new Date(dateStr)
-   const dateStr = date.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric', month: 'short' })
+   const dateSt = date.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric', month: 'short' })
    const timeStr = date.toLocaleTimeString('es-ES', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Madrid' })
 }
 
