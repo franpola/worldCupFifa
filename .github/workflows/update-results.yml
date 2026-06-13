@@ -2,55 +2,30 @@ name: Update World Cup Results
 
 on:
   schedule:
-    - cron: '1 23,7,15 * * *'
+    - cron: '30 23 * * *'
   workflow_dispatch:
-
-concurrency:
-  group: update-results
-  cancel-in-progress: false
 
 jobs:
   update-results:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v5
 
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: "20"
+          node-version: '20'
 
       - name: Fetch latest results
         run: node scripts/fetch-results.js
 
-      - name: Check for changes
-        id: changes
-        run: |
-          git diff --quiet src/data/groups.json || echo "changed=true" >> $GITHUB_OUTPUT
-
       - name: Commit and push if changed
-        if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "worldcup-bot"
           git config user.email "bot@worldcup-dashboard"
-
-          git add src/data/groups.json
-          git commit -m "🤖 Update results $(date -u '+%Y-%m-%d')"
-
+          git add src/data/groups.json src/data/fixtures.json
+          git diff --staged --quiet || git commit -m "🤖 Update results $(date -u '+%Y-%m-%d')"
           git push --force
-
-        #  git fetch origin main
-        #  git rebase origin/main
-
-        #  git push origin HEAD:main
-
-      - name: No changes
-        if: steps.changes.outputs.changed != 'true'
-        run: echo "No changes in results, skipping commit."
