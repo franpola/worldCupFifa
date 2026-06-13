@@ -9,8 +9,8 @@
     "date": "2026-06-11",
     "time": "21:00",
     "venue": "Estadio Ciudad de México",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 2,
+    "scoreAway": 0
   },
   {
     "id": 2,
@@ -22,8 +22,8 @@
     "date": "2026-06-11",
     "time": "04:00",
     "venue": "Estadio Guadalajara",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 2,
+    "scoreAway": 1
   },
   {
     "id": 3,
@@ -35,8 +35,8 @@
     "date": "2026-06-12",
     "time": "21:00",
     "venue": "Estadio Toronto",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 1
   },
   {
     "id": 4,
@@ -48,8 +48,8 @@
     "date": "2026-06-12",
     "time": "04:00",
     "venue": "Estadio Los Ángeles",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 4,
+    "scoreAway": 1
   },
   {
     "id": 5,
