@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-13T00:12:58.758Z",
+  "lastUpdated": "2026-06-13T09:50:21.861Z",
   "groups": {
     "A": {
       "teams": [
@@ -164,12 +164,12 @@
           "id": "par",
           "name": "Paraguay",
           "cc": "py",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 4,
           "pts": 0
         },
         {
@@ -200,13 +200,13 @@
           "id": "usa",
           "name": "Estados Unidos",
           "cc": "us",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 4,
+          "ga": 1,
+          "pts": 3
         }
       ]
     },
