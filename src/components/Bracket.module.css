@@ -23,9 +23,10 @@
 
 .bracket {
   display: flex;
-  gap: 16px;
+  gap: 12px;
   overflow-x: auto;
   padding-bottom: 16px;
+  align-items: flex-start;
 }
 
 .bracket::-webkit-scrollbar { height: 6px; }
@@ -35,25 +36,29 @@
 .round {
   min-width: 180px;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .roundTitle {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 2px;
   color: var(--accent);
   text-align: center;
-  padding: 8px;
+  padding: 7px 8px;
   background: var(--bg3);
   border: 1px solid var(--border);
-  border-radius: 6px 6px 0 0;
-  margin-bottom: 8px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  white-space: nowrap;
 }
 
 .matches {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
 }
 
 .slot {
@@ -64,69 +69,69 @@
   transition: border-color 0.2s;
 }
 
-.slot:hover { border-color: rgba(201,168,76,0.25); }
-
-.slotInner {
-  display: flex;
-  flex-direction: column;
+.slot:hover {
+  border-color: rgba(201,168,76,0.3);
 }
 
-.teamSlot {
+.slotDate {
   display: flex;
   align-items: center;
-  gap: 6px;
-  padding: 7px 10px;
+  justify-content: space-between;
+  padding: 4px 8px;
+  background: var(--bg3);
   border-bottom: 1px solid var(--border);
-  font-size: 12px;
 }
 
-.teamSlot:last-child { border-bottom: none; }
+.slotDateText {
+  font-size: 10px;
+  color: var(--accent);
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
 
-.teamSlot.tbd {
+.slotVenue {
+  font-size: 9px;
   color: var(--text-muted);
-  font-style: italic;
-}
-
-.slotFlag { font-size: 14px; min-width: 18px; }
-
-.slotName {
-  flex: 1;
+  letter-spacing: 0.5px;
+  text-align: right;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  max-width: 100px;
+}
+
+.slotTeam {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--border);
+  min-height: 30px;
+}
+
+.slotTeam:last-child {
+  border-bottom: none;
+}
+
+.slotLabel {
   font-size: 11px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .slotScore {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   color: var(--accent);
-  min-width: 16px;
+  min-width: 18px;
   text-align: right;
-}
-
-.slotDate {
-  text-align: center;
-  font-size: 10px;
-  color: var(--text-muted);
-  padding: 4px;
-  background: var(--bg3);
   letter-spacing: 1px;
-}
-
-.note {
-  margin-top: 20px;
-  font-size: 12px;
-  color: var(--text-muted);
-  text-align: center;
-  padding: 12px;
-  background: var(--bg2);
-  border: 1px solid var(--border);
-  border-radius: 6px;
 }
 
 @media (max-width: 600px) {
   .container { padding: 0 12px 32px; }
   .round { min-width: 150px; }
-  .slotName { font-size: 10px; }
+  .slotVenue { max-width: 70px; }
 }
