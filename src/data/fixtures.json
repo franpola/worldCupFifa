@@ -10,7 +10,8 @@
     "time": "21:00",
     "venue": "Estadio Ciudad de México",
     "scoreHome": 2,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=6k18EJY8zIc"
   },
   {
     "id": 2,
@@ -23,7 +24,8 @@
     "time": "04:00",
     "venue": "Estadio Guadalajara",
     "scoreHome": 2,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=gDz0SlBJ9LQ"
   },
   {
     "id": 3,
@@ -36,7 +38,8 @@
     "time": "21:00",
     "venue": "Estadio Toronto",
     "scoreHome": 1,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=w-_rY5morQY"
   },
   {
     "id": 4,
@@ -49,7 +52,8 @@
     "time": "04:00",
     "venue": "Estadio Los Ángeles",
     "scoreHome": 4,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=Rq5-RklkCBA"
   },
   {
     "id": 5,
