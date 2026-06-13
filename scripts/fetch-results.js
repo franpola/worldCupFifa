@@ -11,7 +11,7 @@ const ESPN_SCORES = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.w
 
 async function fetchJSON(url) {
   const res = await fetch(url);
-  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+  if (!res.ok) throw new Error(`HTTP ${res.status}`);
   return res.json();
 }
 
@@ -65,49 +65,50 @@ async function updateStandings() {
 // ── Fixtures / Scores ──────────────────────────────────────
 async function updateFixtures() {
   console.log('📡 Fetching scores...');
-
-  // ESPN scoreboard only shows recent/live games, so we fetch multiple dates
   const fixtures = JSON.parse(fs.readFileSync(FIXTURES_PATH, 'utf-8'));
-
-  // Get all unique dates from fixtures
   const dates = [...new Set(fixtures.map(f => f.date))];
-
   let updated = 0;
 
   for (const date of dates) {
-    const dateStr = date.replace(/-/g, ''); // YYYYMMDD
+    const dateStr = date.replace(/-/g, '');
     const data = await fetchJSON(`${ESPN_SCORES}?dates=${dateStr}`).catch(() => null);
-    if (!data?.events) continue;
+    if (!data?.events?.length) continue;
+
+    console.log(`  ${date}: ${data.events.length} events from ESPN`);
 
     for (const event of data.events) {
       const comp = event.competitions?.[0];
       if (!comp) continue;
 
       const status = comp.status?.type?.name;
-      const isFinished = status === 'STATUS_FINAL' || status === 'STATUS_FULL_TIME';
+      const isFinished = ['STATUS_FINAL', 'STATUS_FULL_TIME', 'STATUS_FT'].includes(status);
       if (!isFinished) continue;
 
       const home = comp.competitors?.find(c => c.homeAway === 'home');
       const away = comp.competitors?.find(c => c.homeAway === 'away');
       if (!home || !away) continue;
 
-      const homeName = home.team?.displayName?.toLowerCase();
-      const awayName = away.team?.displayName?.toLowerCase();
       const homeScore = parseInt(home.score);
       const awayScore = parseInt(away.score);
+      if (isNaN(homeScore) || isNaN(awayScore)) continue;
 
-      // Find matching fixture by date and team names
-      const fixture = fixtures.find(f => {
-        if (f.date !== date) return false;
-        const fHome = f.home.toLowerCase();
-        const fAway = f.away.toLowerCase();
-        return (
-          (homeName?.includes(fHome.split(' ')[0]) || fHome.includes(homeName?.split(' ')[0])) &&
-          (awayName?.includes(fAway.split(' ')[0]) || fAway.includes(awayName?.split(' ')[0]))
-        );
+      // Match by ESPN commence time → date
+      const eventDate = new Date(event.date).toISOString().split('T')[0];
+
+      // Try to match fixture by date — use order of games on same date
+      const dayFixtures = fixtures.filter(f => f.date === eventDate || f.date === date);
+      const dayEvents = data.events.filter(e => {
+        const comp = e.competitions?.[0];
+        const status = comp?.status?.type?.name;
+        return ['STATUS_FINAL', 'STATUS_FULL_TIME', 'STATUS_FT'].includes(status);
       });
 
-      if (fixture && !isNaN(homeScore) && !isNaN(awayScore)) {
+      // Match by index within the day
+      const eventIdx = dayEvents.indexOf(event);
+      const fixture = dayFixtures[eventIdx];
+
+      if (fixture) {
+        console.log(`    ✓ ${fixture.home} ${homeScore}-${awayScore} ${fixture.away}`);
         fixture.scoreHome = homeScore;
         fixture.scoreAway = awayScore;
         updated++;
