@@ -18,7 +18,7 @@ jobs:
 
       - name: Fetch summaries from YouTube
         env:
-          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YOUTUBE_API_KEY: AIzaSyAr0DbW_5sUaRlC4aicwRDQBYuc-mKIaZk
         run: node scripts/fetch-summaries.js
 
       - name: Commit if changed
