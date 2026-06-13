@@ -166,3 +166,41 @@
   .filterBtn { font-size: 13px; padding: 3px 9px; }
   .dateLabel { font-size: 13px; letter-spacing: 1.5px; text-align: center; color: var(--accent); font-family: 'Bebas Neue', sans-serif; font-size: 17px; }
 }
+
+.played {
+  border-color: rgba(201,168,76,0.15);
+}
+
+.winner {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.matchFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.summaryBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: rgba(255,50,50,0.12);
+  color: #ff4444;
+  border: 1px solid rgba(255,50,50,0.3);
+  border-radius: 4px;
+  padding: 3px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+
+.summaryBtn:hover {
+  background: rgba(255,50,50,0.22);
+  border-color: rgba(255,50,50,0.5);
+}

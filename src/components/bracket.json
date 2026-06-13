@@ -1,0 +1,66 @@
+{
+  "rounds": [
+    {
+      "id": "r16",
+      "name": "Octavos de Final",
+      "matches": [
+        { "id": "r16_1",  "date": "28 jun", "venue": "Los Ángeles",      "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "2A", "label2": "2B",           "scoreHome": null, "scoreAway": null },
+        { "id": "r16_2",  "date": "29 jun", "venue": "Monterrey",        "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "1F", "label2": "2C",           "scoreHome": null, "scoreAway": null },
+        { "id": "r16_3",  "date": "29 jun", "venue": "Houston",          "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "1C", "label2": "2F",           "scoreHome": null, "scoreAway": null },
+        { "id": "r16_4",  "date": "30 jun", "venue": "Dallas",           "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "2E", "label2": "2I",           "scoreHome": null, "scoreAway": null },
+        { "id": "r16_5",  "date": "30 jun", "venue": "Cd. de México",    "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "1A", "label2": "3C/E/F/H/I",  "scoreHome": null, "scoreAway": null },
+        { "id": "r16_6",  "date": "1 jul",  "venue": "Atlanta",          "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "1L", "label2": "3E/H/I/J/K",  "scoreHome": null, "scoreAway": null },
+        { "id": "r16_7",  "date": "1 jul",  "venue": "San Francisco",    "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "1D", "label2": "3B/E/F/I/J",  "scoreHome": null, "scoreAway": null },
+        { "id": "r16_8",  "date": "1 jul",  "venue": "Seattle",          "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "1G", "label2": "3A/E/H/I/J",  "scoreHome": null, "scoreAway": null },
+        { "id": "r16_9",  "date": "29 jun", "venue": "Boston",           "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "1E", "label2": "3A/B/C/D/F",  "scoreHome": null, "scoreAway": null },
+        { "id": "r16_10", "date": "30 jun", "venue": "Nueva York/NJ",    "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "1I", "label2": "3C/D/F/G/H",  "scoreHome": null, "scoreAway": null },
+        { "id": "r16_11", "date": "2 jul",  "venue": "Toronto",          "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "2K", "label2": "2L",           "scoreHome": null, "scoreAway": null },
+        { "id": "r16_12", "date": "2 jul",  "venue": "Los Ángeles",      "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "1H", "label2": "2J",           "scoreHome": null, "scoreAway": null },
+        { "id": "r16_13", "date": "1 jul",  "venue": "Miami",            "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "1B", "label2": "3A/B/C/D",    "scoreHome": null, "scoreAway": null },
+        { "id": "r16_14", "date": "2 jul",  "venue": "Guadalajara",      "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "1J", "label2": "3G/H/I/J/K",  "scoreHome": null, "scoreAway": null },
+        { "id": "r16_15", "date": "2 jul",  "venue": "Kansas City",      "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "1K", "label2": "2G",           "scoreHome": null, "scoreAway": null },
+        { "id": "r16_16", "date": "3 jul",  "venue": "Filadelfia",       "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "2D", "label2": "2H",           "scoreHome": null, "scoreAway": null }
+      ]
+    },
+    {
+      "id": "qf",
+      "name": "Cuartos de Final",
+      "matches": [
+        { "id": "qf_1", "date": "4 jul",  "venue": "Filadelfia",    "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "G1",  "label2": "G2",  "scoreHome": null, "scoreAway": null },
+        { "id": "qf_2", "date": "4 jul",  "venue": "Houston",       "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "G3",  "label2": "G4",  "scoreHome": null, "scoreAway": null },
+        { "id": "qf_3", "date": "5 jul",  "venue": "Cd. de México", "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "G5",  "label2": "G6",  "scoreHome": null, "scoreAway": null },
+        { "id": "qf_4", "date": "5 jul",  "venue": "Cd. de México", "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "G7",  "label2": "G8",  "scoreHome": null, "scoreAway": null },
+        { "id": "qf_5", "date": "6 jul",  "venue": "Dallas",        "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "G9",  "label2": "G10", "scoreHome": null, "scoreAway": null },
+        { "id": "qf_6", "date": "6 jul",  "venue": "Seattle",       "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "G11", "label2": "G12", "scoreHome": null, "scoreAway": null },
+        { "id": "qf_7", "date": "7 jul",  "venue": "Nueva York/NJ", "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "G13", "label2": "G14", "scoreHome": null, "scoreAway": null },
+        { "id": "qf_8", "date": "7 jul",  "venue": "Los Ángeles",   "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "G15", "label2": "G16", "scoreHome": null, "scoreAway": null }
+      ]
+    },
+    {
+      "id": "sf",
+      "name": "Semifinales",
+      "matches": [
+        { "id": "sf_1", "date": "9 jul",  "venue": "Boston",      "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "SF1", "label2": "SF2", "scoreHome": null, "scoreAway": null },
+        { "id": "sf_2", "date": "10 jul", "venue": "Los Ángeles", "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "SF3", "label2": "SF4", "scoreHome": null, "scoreAway": null },
+        { "id": "sf_3", "date": "11 jul", "venue": "Miami",       "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "SF5", "label2": "SF6", "scoreHome": null, "scoreAway": null },
+        { "id": "sf_4", "date": "12 jul", "venue": "Dallas",      "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "SF7", "label2": "SF8", "scoreHome": null, "scoreAway": null }
+      ]
+    },
+    {
+      "id": "3rd",
+      "name": "3er y 4º Puesto",
+      "matches": [
+        { "id": "3rd_1", "date": "14 jul", "venue": "Dallas",   "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "Perdedor SF", "label2": "Perdedor SF", "scoreHome": null, "scoreAway": null },
+        { "id": "3rd_2", "date": "15 jul", "venue": "Atlanta",  "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "Perdedor SF", "label2": "Perdedor SF", "scoreHome": null, "scoreAway": null }
+      ]
+    },
+    {
+      "id": "final",
+      "name": "Final",
+      "matches": [
+        { "id": "final_1", "date": "19 jul", "venue": "Nueva York/NJ", "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "Ganador SF", "label2": "Ganador SF", "scoreHome": null, "scoreAway": null },
+        { "id": "final_2", "date": "19 jul", "venue": "Los Ángeles",   "home": null, "homeFlag": null, "away": null, "awayFlag": null, "label": "Ganador SF", "label2": "Ganador SF", "scoreHome": null, "scoreAway": null }
+      ]
+    }
+  ]
+}

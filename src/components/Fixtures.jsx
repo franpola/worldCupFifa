@@ -5,9 +5,10 @@ import styles from './Fixtures.module.css'
 
 const GROUPS = ['Todos','A','B','C','D','E','F','G','H','I','J','K','L']
 
-function formatDate(dateStr) { 
-  const d = new Date(dateStr + 'T12:00:00') 
-  return d.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric', month: 'short' }) }
+function formatDate(dateStr) {
+  const d = new Date(dateStr + 'T12:00:00')
+  return d.toLocaleDateString('es-ES', { weekday: 'short', day: 'numeric', month: 'short' })
+}
 
 function MatchCard({ match }) {
   const played = match.scoreHome !== null && match.scoreAway !== null
@@ -15,15 +16,17 @@ function MatchCard({ match }) {
   const isToday = match.date === today
 
   return (
-    <div className={`${styles.match} ${isToday ? styles.today : ''}`}>
+    <div className={`${styles.match} ${isToday ? styles.today : ''} ${played ? styles.played : ''}`}>
       <div className={styles.matchMeta}>
         <span className={styles.groupBadge}>Grupo {match.group}</span>
-        <span className={styles.date}>{formatDate(match.date)} · {match.time}</span>
+        <span className={styles.date}>{formatDate(match.date)} · {match.time}h</span>
       </div>
       <div className={styles.teams}>
         <div className={styles.team}>
           <Flag cc={match.homecc} size={24} />
-          <span className={styles.teamName}>{match.home}</span>
+          <span className={`${styles.teamName} ${played && match.scoreHome > match.scoreAway ? styles.winner : ''}`}>
+            {match.home}
+          </span>
         </div>
         <div className={styles.score}>
           {played
@@ -31,11 +34,25 @@ function MatchCard({ match }) {
             : <span className={styles.vs}>VS</span>}
         </div>
         <div className={`${styles.team} ${styles.teamRight}`}>
-          <span className={styles.teamName}>{match.away}</span>
+          <span className={`${styles.teamName} ${played && match.scoreAway > match.scoreHome ? styles.winner : ''}`}>
+            {match.away}
+          </span>
           <Flag cc={match.awaycc} size={24} />
         </div>
       </div>
-      <div className={styles.venue}>📍 {match.venue}</div>
+      <div className={styles.matchFooter}>
+        <span className={styles.venue}>📍 {match.venue}</span>
+        {played && match.summaryUrl && (
+          <a
+            href={match.summaryUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={styles.summaryBtn}
+          >
+            ▶ Resumen
+          </a>
+        )}
+      </div>
     </div>
   )
 }
