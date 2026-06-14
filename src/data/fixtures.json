@@ -66,7 +66,8 @@
     "time": "22:00",
     "venue": "Estadio Bahía de San Francisco",
     "scoreHome": 1,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=6PZxsHJRe7o"
   },
   {
     "id": 6,
@@ -79,7 +80,8 @@
     "time": "01:00",
     "venue": "Estadio Nueva York-Nueva Jersey",
     "scoreHome": 1,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=i3Xe1ALvfgQ"
   },
   {
     "id": 7,
