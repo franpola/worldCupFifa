@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-13T20:56:10.974Z",
+  "lastUpdated": "2026-06-14T01:42:16.326Z",
   "groups": {
     "A": {
       "teams": [
@@ -84,25 +84,25 @@
           "id": "sui",
           "name": "Suiza",
           "cc": "ch",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 1,
+          "ga": 1,
+          "pts": 1
         },
         {
           "id": "qat",
           "name": "Qatar",
           "cc": "qa",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 1,
+          "ga": 1,
+          "pts": 1
         }
       ]
     },
@@ -112,13 +112,13 @@
           "id": "bra",
           "name": "Brasil",
           "cc": "br",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 1,
+          "ga": 1,
+          "pts": 1
         },
         {
           "id": "sco",
@@ -148,13 +148,13 @@
           "id": "mar",
           "name": "Marruecos",
           "cc": "ma",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 1,
+          "ga": 1,
+          "pts": 1
         }
       ]
     },
