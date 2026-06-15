@@ -66,7 +66,8 @@
     "time": "22:00",
     "venue": "Estadio Bahía de San Francisco",
     "scoreHome": 1,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=KVz43-eddIQ"
   },
   {
     "id": 6,
@@ -79,7 +80,8 @@
     "time": "01:00",
     "venue": "Estadio Nueva York-Nueva Jersey",
     "scoreHome": 1,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=5eqzEDe8wHs"
   },
   {
     "id": 7,
@@ -92,7 +94,8 @@
     "time": "04:00",
     "venue": "Estadio Boston",
     "scoreHome": 0,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=yoZfi1qoEzg"
   },
   {
     "id": 8,
@@ -105,7 +108,8 @@
     "time": "07:00",
     "venue": "Estadio BC Place Vancouver",
     "scoreHome": 2,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=5eqzEDe8wHs"
   },
   {
     "id": 9,
@@ -118,7 +122,8 @@
     "time": "20:00",
     "venue": "Estadio Houston",
     "scoreHome": 7,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=B6-Z5ul2ccQ"
   },
   {
     "id": 10,
@@ -131,7 +136,8 @@
     "time": "23:00",
     "venue": "Estadio Dallas",
     "scoreHome": 2,
-    "scoreAway": 2
+    "scoreAway": 2,
+    "summaryUrl": "https://www.youtube.com/watch?v=r8SvHZxALQs"
   },
   {
     "id": 11,
@@ -144,7 +150,8 @@
     "time": "02:00",
     "venue": "Estadio Filadelfia",
     "scoreHome": 1,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=QKD2rj6GcnE"
   },
   {
     "id": 12,
@@ -157,7 +164,8 @@
     "time": "05:00",
     "venue": "Estadio Monterrey",
     "scoreHome": 5,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=n-3Rtcbwjew"
   },
   {
     "id": 13,
@@ -170,7 +178,8 @@
     "time": "19:00",
     "venue": "Estadio Atlanta",
     "scoreHome": 0,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=0zJgPQeeutw"
   },
   {
     "id": 14,
@@ -183,7 +192,8 @@
     "time": "22:00",
     "venue": "Estadio Seattle",
     "scoreHome": 1,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=C6bqyqbIkOo"
   },
   {
     "id": 15,
