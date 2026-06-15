@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-13T20:56:10.974Z",
+  "lastUpdated": "2026-06-15T21:16:27.638Z",
   "groups": {
     "A": {
       "teams": [
@@ -84,25 +84,25 @@
           "id": "sui",
           "name": "Suiza",
           "cc": "ch",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 1,
+          "ga": 1,
+          "pts": 1
         },
         {
           "id": "qat",
           "name": "Qatar",
           "cc": "qa",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 1,
+          "ga": 1,
+          "pts": 1
         }
       ]
     },
@@ -112,49 +112,49 @@
           "id": "bra",
           "name": "Brasil",
           "cc": "br",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 1,
+          "ga": 1,
+          "pts": 1
         },
         {
           "id": "sco",
           "name": "Escocia",
           "cc": "gb-sct",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
+          "gf": 1,
           "ga": 0,
-          "pts": 0
+          "pts": 3
         },
         {
           "id": "hai",
           "name": "Haití",
           "cc": "ht",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 0,
-          "ga": 0,
+          "ga": 1,
           "pts": 0
         },
         {
           "id": "mar",
           "name": "Marruecos",
           "cc": "ma",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 1,
+          "ga": 1,
+          "pts": 1
         }
       ]
     },
@@ -176,25 +176,25 @@
           "id": "tur",
           "name": "Turquía",
           "cc": "tr",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 0,
-          "ga": 0,
+          "ga": 2,
           "pts": 0
         },
         {
           "id": "aus",
           "name": "Australia",
           "cc": "au",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
+          "gf": 2,
           "ga": 0,
-          "pts": 0
+          "pts": 3
         },
         {
           "id": "usa",
@@ -216,48 +216,48 @@
           "id": "ecu",
           "name": "Ecuador",
           "cc": "ec",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 0,
-          "ga": 0,
+          "ga": 1,
           "pts": 0
         },
         {
           "id": "ger",
           "name": "Alemania",
           "cc": "de",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 7,
+          "ga": 1,
+          "pts": 3
         },
         {
           "id": "civ",
           "name": "Costa de Marfil",
           "cc": "ci",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
+          "gf": 1,
           "ga": 0,
-          "pts": 0
+          "pts": 3
         },
         {
           "id": "cuw",
           "name": "Curaçao",
           "cc": "cw",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 7,
           "pts": 0
         }
       ]
@@ -268,48 +268,48 @@
           "id": "ned",
           "name": "Países Bajos",
           "cc": "nl",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 2,
+          "ga": 2,
+          "pts": 1
         },
         {
           "id": "swe",
           "name": "Suecia",
           "cc": "se",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 5,
+          "ga": 1,
+          "pts": 3
         },
         {
           "id": "jpn",
           "name": "Japón",
           "cc": "jp",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 2,
+          "ga": 2,
+          "pts": 1
         },
         {
           "id": "tun",
           "name": "Túnez",
           "cc": "tn",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 5,
           "pts": 0
         }
       ]
@@ -320,13 +320,13 @@
           "id": "bel",
           "name": "Bélgica",
           "cc": "be",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 1,
+          "ga": 1,
+          "pts": 1
         },
         {
           "id": "irn",
@@ -344,13 +344,13 @@
           "id": "egy",
           "name": "Egipto",
           "cc": "eg",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 1,
+          "ga": 1,
+          "pts": 1
         },
         {
           "id": "nzl",
@@ -372,13 +372,13 @@
           "id": "esp",
           "name": "España",
           "cc": "es",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "gf": 0,
           "ga": 0,
-          "pts": 0
+          "pts": 1
         },
         {
           "id": "uru",
@@ -408,13 +408,13 @@
           "id": "cpv",
           "name": "Cabo Verde",
           "cc": "cv",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "gf": 0,
           "ga": 0,
-          "pts": 0
+          "pts": 1
         }
       ]
     },

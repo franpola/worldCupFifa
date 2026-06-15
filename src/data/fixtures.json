@@ -65,8 +65,8 @@
     "date": "2026-06-13",
     "time": "22:00",
     "venue": "Estadio Bahía de San Francisco",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 1
   },
   {
     "id": 6,
@@ -78,8 +78,8 @@
     "date": "2026-06-13",
     "time": "01:00",
     "venue": "Estadio Nueva York-Nueva Jersey",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 1
   },
   {
     "id": 7,
@@ -91,8 +91,8 @@
     "date": "2026-06-13",
     "time": "04:00",
     "venue": "Estadio Boston",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 1
   },
   {
     "id": 8,
@@ -104,8 +104,8 @@
     "date": "2026-06-14",
     "time": "07:00",
     "venue": "Estadio BC Place Vancouver",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 2,
+    "scoreAway": 0
   },
   {
     "id": 9,
@@ -117,8 +117,8 @@
     "date": "2026-06-14",
     "time": "20:00",
     "venue": "Estadio Houston",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 7,
+    "scoreAway": 1
   },
   {
     "id": 10,
@@ -130,8 +130,8 @@
     "date": "2026-06-14",
     "time": "23:00",
     "venue": "Estadio Dallas",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 2,
+    "scoreAway": 2
   },
   {
     "id": 11,
@@ -143,8 +143,8 @@
     "date": "2026-06-14",
     "time": "02:00",
     "venue": "Estadio Filadelfia",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 0
   },
   {
     "id": 12,
@@ -156,8 +156,8 @@
     "date": "2026-06-14",
     "time": "05:00",
     "venue": "Estadio Monterrey",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 5,
+    "scoreAway": 1
   },
   {
     "id": 13,
@@ -169,8 +169,8 @@
     "date": "2026-06-15",
     "time": "19:00",
     "venue": "Estadio Atlanta",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 0
   },
   {
     "id": 14,
@@ -182,8 +182,8 @@
     "date": "2026-06-15",
     "time": "22:00",
     "venue": "Estadio Seattle",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 1
   },
   {
     "id": 15,
