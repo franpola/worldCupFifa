@@ -2,7 +2,7 @@ name: Update Match Summaries
 
 on:
   schedule:
-    - cron: '0 2,8,14,20 * * *'  # cada 6h durante el torneo
+    - cron: '0 2,8,10,12,14,18,20,22 * * *'  # cada 6h durante el torneo
   workflow_dispatch:
 
 jobs:
