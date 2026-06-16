@@ -206,7 +206,8 @@
     "time": "01:00",
     "venue": "Estadio Miami",
     "scoreHome": 1,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=_Myw6Zba1XE"
   },
   {
     "id": 16,
