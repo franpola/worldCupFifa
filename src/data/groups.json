@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-16T02:05:05.816Z",
+  "lastUpdated": "2026-06-16T11:39:30.754Z",
   "groups": {
     "A": {
       "teams": [
@@ -332,13 +332,13 @@
           "id": "irn",
           "name": "Irán",
           "cc": "ir",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 2,
+          "ga": 2,
+          "pts": 1
         },
         {
           "id": "egy",
@@ -356,13 +356,13 @@
           "id": "nzl",
           "name": "Nueva Zelanda",
           "cc": "nz",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 2,
+          "ga": 2,
+          "pts": 1
         }
       ]
     },
