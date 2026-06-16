@@ -220,7 +220,8 @@
     "time": "04:00",
     "venue": "Estadio Los Ángeles",
     "scoreHome": 2,
-    "scoreAway": 2
+    "scoreAway": 2,
+    "summaryUrl": "https://www.youtube.com/watch?v=QxbHUXD9tsU"
   },
   {
     "id": 17,
