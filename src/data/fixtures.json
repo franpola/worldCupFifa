@@ -205,8 +205,8 @@
     "date": "2026-06-15",
     "time": "01:00",
     "venue": "Estadio Miami",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 1
   },
   {
     "id": 16,
