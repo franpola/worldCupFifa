@@ -233,8 +233,8 @@
     "date": "2026-06-16",
     "time": "22:00",
     "venue": "Estadio Nueva York-Nueva Jersey",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 3,
+    "scoreAway": 1
   },
   {
     "id": 18,
