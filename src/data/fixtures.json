@@ -234,7 +234,8 @@
     "time": "22:00",
     "venue": "Estadio Nueva York-Nueva Jersey",
     "scoreHome": 3,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=tzJqZbor4bw"
   },
   {
     "id": 18,
@@ -247,7 +248,8 @@
     "time": "01:00",
     "venue": "Estadio Boston",
     "scoreHome": 1,
-    "scoreAway": 4
+    "scoreAway": 4,
+    "summaryUrl": "https://www.youtube.com/watch?v=Lu-JrORU5dw"
   },
   {
     "id": 19,
