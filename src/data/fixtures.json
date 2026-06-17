@@ -289,8 +289,8 @@
     "date": "2026-06-17",
     "time": "20:00",
     "venue": "Estadio Houston",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 1
   },
   {
     "id": 22,

@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-17T17:27:41.750Z",
+  "lastUpdated": "2026-06-17T20:33:55.163Z",
   "groups": {
     "A": {
       "teams": [
@@ -540,13 +540,13 @@
           "id": "por",
           "name": "Portugal",
           "cc": "pt",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 1,
+          "ga": 1,
+          "pts": 1
         },
         {
           "id": "uzb",
@@ -564,13 +564,13 @@
           "id": "cod",
           "name": "R.D. Congo",
           "cc": "cd",
-          "played": 0,
+          "played": 1,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 1,
+          "ga": 1,
+          "pts": 1
         }
       ]
     },
