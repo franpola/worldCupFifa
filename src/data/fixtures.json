@@ -261,8 +261,8 @@
     "date": "2026-06-16",
     "time": "04:00",
     "venue": "Estadio Kansas City",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 3,
+    "scoreAway": 0
   },
   {
     "id": 20,
@@ -274,8 +274,8 @@
     "date": "2026-06-17",
     "time": "07:00",
     "venue": "Estadio Bahía de San Francisco",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 3,
+    "scoreAway": 1
   },
   {
     "id": 21,
