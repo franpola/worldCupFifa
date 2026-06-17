@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-16T22:26:50.725Z",
+  "lastUpdated": "2026-06-17T01:58:55.169Z",
   "groups": {
     "A": {
       "teams": [
@@ -424,13 +424,13 @@
           "id": "nor",
           "name": "Noruega",
           "cc": "no",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 4,
+          "ga": 1,
+          "pts": 3
         },
         {
           "id": "fra",
@@ -460,12 +460,12 @@
           "id": "irq",
           "name": "Irak",
           "cc": "iq",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 4,
           "pts": 0
         }
       ]

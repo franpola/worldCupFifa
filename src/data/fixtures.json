@@ -246,8 +246,8 @@
     "date": "2026-06-16",
     "time": "01:00",
     "venue": "Estadio Boston",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 4
   },
   {
     "id": 19,
