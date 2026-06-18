@@ -331,8 +331,8 @@
     "date": "2026-06-17",
     "time": "05:00",
     "venue": "Estadio Ciudad de México",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 3
   },
   {
     "id": 25,

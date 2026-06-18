@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-18T01:59:49.934Z",
+  "lastUpdated": "2026-06-18T10:51:39.786Z",
   "groups": {
     "A": {
       "teams": [
@@ -528,13 +528,13 @@
           "id": "col",
           "name": "Colombia",
           "cc": "co",
-          "played": 0,
-          "won": 0,
+          "played": 1,
+          "won": 1,
           "drawn": 0,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 0
+          "gf": 3,
+          "ga": 1,
+          "pts": 3
         },
         {
           "id": "por",
@@ -552,12 +552,12 @@
           "id": "uzb",
           "name": "Uzbekistán",
           "cc": "uz",
-          "played": 0,
+          "played": 1,
           "won": 0,
           "drawn": 0,
-          "lost": 0,
-          "gf": 0,
-          "ga": 0,
+          "lost": 1,
+          "gf": 1,
+          "ga": 3,
           "pts": 0
         },
         {
