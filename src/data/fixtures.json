@@ -304,7 +304,8 @@
     "time": "23:00",
     "venue": "Estadio Dallas",
     "scoreHome": 4,
-    "scoreAway": 2
+    "scoreAway": 2,
+    "summaryUrl": "https://www.youtube.com/watch?v=_4_xvEyFZRc"
   },
   {
     "id": 23,
@@ -317,7 +318,8 @@
     "time": "02:00",
     "venue": "Estadio Toronto",
     "scoreHome": 1,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=yjG_BrNyg7g"
   },
   {
     "id": 24,
