@@ -332,7 +332,8 @@
     "time": "05:00",
     "venue": "Estadio Ciudad de México",
     "scoreHome": 1,
-    "scoreAway": 3
+    "scoreAway": 3,
+    "summaryUrl": "https://www.youtube.com/watch?v=q9ppHcDYnCY"
   },
   {
     "id": 25,
