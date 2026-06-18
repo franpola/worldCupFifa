@@ -303,8 +303,8 @@
     "date": "2026-06-17",
     "time": "23:00",
     "venue": "Estadio Dallas",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 4,
+    "scoreAway": 2
   },
   {
     "id": 23,
@@ -316,8 +316,8 @@
     "date": "2026-06-17",
     "time": "02:00",
     "venue": "Estadio Toronto",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 0
   },
   {
     "id": 24,
