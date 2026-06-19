@@ -402,7 +402,8 @@
     "time": "22:00",
     "venue": "Estadio Seattle",
     "scoreHome": 2,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=TWylMX3prCg"
   },
   {
     "id": 30,
