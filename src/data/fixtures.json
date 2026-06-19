@@ -360,7 +360,8 @@
     "time": "22:00",
     "venue": "Estadio Los Ángeles",
     "scoreHome": 4,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=YMnDgmSRIvI"
   },
   {
     "id": 27,
@@ -373,7 +374,8 @@
     "time": "01:00",
     "venue": "Estadio BC Place Vancouver",
     "scoreHome": 6,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=ZCc6OvwaJko"
   },
   {
     "id": 28,
