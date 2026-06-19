@@ -401,8 +401,8 @@
     "date": "2026-06-19",
     "time": "22:00",
     "venue": "Estadio Seattle",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 2,
+    "scoreAway": 0
   },
   {
     "id": 30,
