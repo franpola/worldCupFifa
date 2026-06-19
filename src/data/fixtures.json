@@ -388,7 +388,8 @@
     "time": "04:00",
     "venue": "Estadio Guadalajara",
     "scoreHome": 1,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=ROZ0dAeNR00"
   },
   {
     "id": 29,
