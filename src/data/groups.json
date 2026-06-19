@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-19T02:12:06.363Z",
+  "lastUpdated": "2026-06-19T11:00:34.372Z",
   "groups": {
     "A": {
       "teams": [
@@ -8,13 +8,13 @@
           "id": "mex",
           "name": "México",
           "cc": "mx",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "gf": 2,
+          "gf": 3,
           "ga": 0,
-          "pts": 3
+          "pts": 6
         },
         {
           "id": "cze",
@@ -32,12 +32,12 @@
           "id": "kor",
           "name": "Corea del Sur",
           "cc": "kr",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 2,
-          "ga": 1,
+          "ga": 2,
           "pts": 3
         },
         {
