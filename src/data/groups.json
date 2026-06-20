@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-19T21:40:58.887Z",
+  "lastUpdated": "2026-06-20T01:34:35.903Z",
   "groups": {
     "A": {
       "teams": [
@@ -124,12 +124,12 @@
           "id": "sco",
           "name": "Escocia",
           "cc": "gb-sct",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 0,
+          "ga": 1,
           "pts": 3
         },
         {
@@ -148,13 +148,13 @@
           "id": "mar",
           "name": "Marruecos",
           "cc": "ma",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 1,
           "lost": 0,
-          "gf": 1,
+          "gf": 2,
           "ga": 1,
-          "pts": 1
+          "pts": 4
         }
       ]
     },

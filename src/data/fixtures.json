@@ -415,8 +415,8 @@
     "date": "2026-06-19",
     "time": "01:00",
     "venue": "Estadio Boston",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 1
   },
   {
     "id": 31,
