@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-20T17:51:39.959Z",
+  "lastUpdated": "2026-06-20T20:01:51.184Z",
   "groups": {
     "A": {
       "teams": [
@@ -268,24 +268,24 @@
           "id": "ned",
           "name": "Países Bajos",
           "cc": "nl",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 1,
           "lost": 0,
-          "gf": 2,
-          "ga": 2,
-          "pts": 1
+          "gf": 7,
+          "ga": 3,
+          "pts": 4
         },
         {
           "id": "swe",
           "name": "Suecia",
           "cc": "se",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "gf": 5,
-          "ga": 1,
+          "lost": 1,
+          "gf": 6,
+          "ga": 6,
           "pts": 3
         },
         {
