@@ -457,8 +457,8 @@
     "date": "2026-06-20",
     "time": "20:00",
     "venue": "Estadio Houston",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 2,
+    "scoreAway": 1
   },
   {
     "id": 34,

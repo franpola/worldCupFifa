@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-20T20:01:51.184Z",
+  "lastUpdated": "2026-06-20T23:42:15.748Z",
   "groups": {
     "A": {
       "teams": [
@@ -228,24 +228,24 @@
           "id": "ger",
           "name": "Alemania",
           "cc": "de",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "gf": 7,
-          "ga": 1,
-          "pts": 3
+          "gf": 9,
+          "ga": 2,
+          "pts": 6
         },
         {
           "id": "civ",
           "name": "Costa de Marfil",
           "cc": "ci",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
-          "gf": 1,
-          "ga": 0,
+          "lost": 1,
+          "gf": 2,
+          "ga": 2,
           "pts": 3
         },
         {
