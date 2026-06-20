@@ -430,7 +430,8 @@
     "time": "04:00",
     "venue": "Estadio Filadelfia",
     "scoreHome": 3,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=Qj0qoAoXG9Q"
   },
   {
     "id": 32,
@@ -443,7 +444,8 @@
     "time": "07:00",
     "venue": "Estadio Bahía de San Francisco",
     "scoreHome": 0,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=U_oClxLuqMM"
   },
   {
     "id": 33,
