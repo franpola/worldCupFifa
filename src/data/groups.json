@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-20T01:34:35.903Z",
+  "lastUpdated": "2026-06-20T09:47:32.964Z",
   "groups": {
     "A": {
       "teams": [
@@ -112,13 +112,13 @@
           "id": "bra",
           "name": "Brasil",
           "cc": "br",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 1,
           "lost": 0,
-          "gf": 1,
+          "gf": 4,
           "ga": 1,
-          "pts": 1
+          "pts": 4
         },
         {
           "id": "sco",
@@ -136,12 +136,12 @@
           "id": "hai",
           "name": "Haití",
           "cc": "ht",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 0,
-          "ga": 1,
+          "ga": 4,
           "pts": 0
         },
         {
@@ -164,24 +164,24 @@
           "id": "par",
           "name": "Paraguay",
           "cc": "py",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "gf": 1,
+          "gf": 2,
           "ga": 4,
-          "pts": 0
+          "pts": 3
         },
         {
           "id": "tur",
           "name": "Turquía",
           "cc": "tr",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 0,
-          "ga": 2,
+          "ga": 3,
           "pts": 0
         },
         {

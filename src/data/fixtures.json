@@ -429,8 +429,8 @@
     "date": "2026-06-19",
     "time": "04:00",
     "venue": "Estadio Filadelfia",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 3,
+    "scoreAway": 0
   },
   {
     "id": 32,
@@ -442,8 +442,8 @@
     "date": "2026-06-20",
     "time": "07:00",
     "venue": "Estadio Bahía de San Francisco",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 1
   },
   {
     "id": 33,
