@@ -471,8 +471,8 @@
     "date": "2026-06-20",
     "time": "23:00",
     "venue": "Estadio Toronto",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 0
   },
   {
     "id": 35,
@@ -497,8 +497,8 @@
     "date": "2026-06-21",
     "time": "07:00",
     "venue": "Estadio Monterrey",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 4
   },
   {
     "id": 37,
@@ -510,8 +510,8 @@
     "date": "2026-06-21",
     "time": "19:00",
     "venue": "Estadio Atlanta",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 4,
+    "scoreAway": 0
   },
   {
     "id": 38,

@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-21T01:44:49.312Z",
+  "lastUpdated": "2026-06-21T18:18:18.479Z",
   "groups": {
     "A": {
       "teams": [
@@ -216,13 +216,13 @@
           "id": "ecu",
           "name": "Ecuador",
           "cc": "ec",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "gf": 0,
           "ga": 1,
-          "pts": 0
+          "pts": 1
         },
         {
           "id": "ger",
@@ -252,13 +252,13 @@
           "id": "cuw",
           "name": "Curaçao",
           "cc": "cw",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
           "gf": 1,
           "ga": 7,
-          "pts": 0
+          "pts": 1
         }
       ]
     },
@@ -292,24 +292,24 @@
           "id": "jpn",
           "name": "Japón",
           "cc": "jp",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 1,
           "lost": 0,
-          "gf": 2,
+          "gf": 6,
           "ga": 2,
-          "pts": 1
+          "pts": 4
         },
         {
           "id": "tun",
           "name": "Túnez",
           "cc": "tn",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 1,
-          "ga": 5,
+          "ga": 9,
           "pts": 0
         }
       ]
@@ -372,13 +372,13 @@
           "id": "esp",
           "name": "España",
           "cc": "es",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 1,
           "lost": 0,
-          "gf": 0,
+          "gf": 4,
           "ga": 0,
-          "pts": 1
+          "pts": 4
         },
         {
           "id": "uru",
@@ -396,12 +396,12 @@
           "id": "ksa",
           "name": "Arabia Saudí",
           "cc": "sa",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 1,
-          "lost": 0,
+          "lost": 1,
           "gf": 1,
-          "ga": 1,
+          "ga": 5,
           "pts": 1
         },
         {
