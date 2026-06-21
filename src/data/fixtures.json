@@ -458,7 +458,8 @@
     "time": "20:00",
     "venue": "Estadio Houston",
     "scoreHome": 2,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=3wwDIIWhJOU"
   },
   {
     "id": 34,
