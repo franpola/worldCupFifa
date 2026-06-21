@@ -526,8 +526,8 @@
     "date": "2026-06-21",
     "time": "22:00",
     "venue": "Estadio Los Ángeles",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 0
   },
   {
     "id": 39,

@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-21T20:09:29.951Z",
+  "lastUpdated": "2026-06-21T21:49:45.331Z",
   "groups": {
     "A": {
       "teams": [
@@ -320,25 +320,25 @@
           "id": "bel",
           "name": "Bélgica",
           "cc": "be",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 0,
           "gf": 1,
           "ga": 1,
-          "pts": 1
+          "pts": 2
         },
         {
           "id": "irn",
           "name": "Irán",
           "cc": "ir",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 0,
           "gf": 2,
           "ga": 2,
-          "pts": 1
+          "pts": 2
         },
         {
           "id": "egy",
