@@ -472,7 +472,8 @@
     "time": "23:00",
     "venue": "Estadio Toronto",
     "scoreHome": 0,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=K13uN7tj3_k"
   },
   {
     "id": 35,
@@ -498,7 +499,8 @@
     "time": "07:00",
     "venue": "Estadio Monterrey",
     "scoreHome": 0,
-    "scoreAway": 4
+    "scoreAway": 4,
+    "summaryUrl": "https://www.youtube.com/watch?v=798Cx7JXIcM"
   },
   {
     "id": 37,
@@ -511,7 +513,8 @@
     "time": "19:00",
     "venue": "Estadio Atlanta",
     "scoreHome": 4,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=x2zcK31dUtY"
   },
   {
     "id": 38,
