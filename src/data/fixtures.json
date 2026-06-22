@@ -555,7 +555,8 @@
     "time": "04:00",
     "venue": "Estadio BC Place Vancouver",
     "scoreHome": 1,
-    "scoreAway": 3
+    "scoreAway": 3,
+    "summaryUrl": "https://www.youtube.com/watch?v=dTVLr45ewM8"
   },
   {
     "id": 41,
