@@ -554,8 +554,8 @@
     "date": "2026-06-21",
     "time": "04:00",
     "venue": "Estadio BC Place Vancouver",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 3
   },
   {
     "id": 41,
