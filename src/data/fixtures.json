@@ -569,7 +569,8 @@
     "time": "20:00",
     "venue": "Estadio Dallas",
     "scoreHome": 2,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=9yA9ssUw-yc"
   },
   {
     "id": 42,
