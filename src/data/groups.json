@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-21T21:49:45.331Z",
+  "lastUpdated": "2026-06-22T01:44:51.895Z",
   "groups": {
     "A": {
       "teams": [
@@ -384,13 +384,13 @@
           "id": "uru",
           "name": "Uruguay",
           "cc": "uy",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 0,
-          "gf": 1,
-          "ga": 1,
-          "pts": 1
+          "gf": 3,
+          "ga": 3,
+          "pts": 2
         },
         {
           "id": "ksa",
@@ -408,13 +408,13 @@
           "id": "cpv",
           "name": "Cabo Verde",
           "cc": "cv",
-          "played": 1,
+          "played": 2,
           "won": 0,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 0,
-          "gf": 0,
-          "ga": 0,
-          "pts": 1
+          "gf": 2,
+          "ga": 2,
+          "pts": 2
         }
       ]
     },
