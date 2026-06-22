@@ -568,8 +568,8 @@
     "date": "2026-06-22",
     "time": "20:00",
     "venue": "Estadio Dallas",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 2,
+    "scoreAway": 0
   },
   {
     "id": 42,

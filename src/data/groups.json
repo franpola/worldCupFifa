@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-22T18:31:19.127Z",
+  "lastUpdated": "2026-06-22T22:19:50.251Z",
   "groups": {
     "A": {
       "teams": [
@@ -476,24 +476,24 @@
           "id": "arg",
           "name": "Argentina",
           "cc": "ar",
-          "played": 1,
-          "won": 1,
+          "played": 2,
+          "won": 2,
           "drawn": 0,
           "lost": 0,
-          "gf": 3,
+          "gf": 5,
           "ga": 0,
-          "pts": 3
+          "pts": 6
         },
         {
           "id": "aut",
           "name": "Austria",
           "cc": "at",
-          "played": 1,
+          "played": 2,
           "won": 1,
           "drawn": 0,
-          "lost": 0,
+          "lost": 1,
           "gf": 3,
-          "ga": 1,
+          "ga": 3,
           "pts": 3
         },
         {
