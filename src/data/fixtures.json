@@ -596,8 +596,8 @@
     "date": "2026-06-22",
     "time": "03:00",
     "venue": "Estadio Nueva York-Nueva Jersey",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 3,
+    "scoreAway": 2
   },
   {
     "id": 44,
@@ -609,8 +609,8 @@
     "date": "2026-06-22",
     "time": "06:00",
     "venue": "Estadio Bahía de San Francisco",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 2
   },
   {
     "id": 45,
