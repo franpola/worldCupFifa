@@ -582,8 +582,8 @@
     "date": "2026-06-22",
     "time": "00:00",
     "venue": "Estadio Filadelfia",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 3,
+    "scoreAway": 0
   },
   {
     "id": 43,
