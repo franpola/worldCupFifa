@@ -597,7 +597,8 @@
     "time": "03:00",
     "venue": "Estadio Nueva York-Nueva Jersey",
     "scoreHome": 3,
-    "scoreAway": 2
+    "scoreAway": 2,
+    "summaryUrl": "https://www.youtube.com/watch?v=ZjwlU1REfj4"
   },
   {
     "id": 44,
@@ -610,7 +611,8 @@
     "time": "06:00",
     "venue": "Estadio Bahía de San Francisco",
     "scoreHome": 1,
-    "scoreAway": 2
+    "scoreAway": 2,
+    "summaryUrl": "https://www.youtube.com/watch?v=VhZ9epQLDP4"
   },
   {
     "id": 45,
@@ -623,7 +625,8 @@
     "time": "20:00",
     "venue": "Estadio Houston",
     "scoreHome": 5,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=CtaAIAbALsU"
   },
   {
     "id": 46,
