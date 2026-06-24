@@ -681,7 +681,8 @@
     "time": "22:00",
     "venue": "Estadio BC Place Vancouver",
     "scoreHome": 3,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=XgXoG2yCN6g"
   },
   {
     "id": 50,
@@ -694,7 +695,8 @@
     "time": "22:00",
     "venue": "Estadio Seattle",
     "scoreHome": 2,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=qXwkXM5_4y4"
   },
   {
     "id": 51,
