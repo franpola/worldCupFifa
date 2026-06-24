@@ -666,8 +666,8 @@
     "date": "2026-06-23",
     "time": "05:00",
     "venue": "Estadio Guadalajara",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 0
   },
   {
     "id": 49,
