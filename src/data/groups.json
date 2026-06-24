@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-23T21:57:24.031Z",
+  "lastUpdated": "2026-06-24T01:22:15.109Z",
   "groups": {
     "A": {
       "teams": [
@@ -580,49 +580,49 @@
           "id": "eng",
           "name": "Inglaterra",
           "cc": "gb-eng",
-          "played": 1,
+          "played": 2,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "gf": 4,
           "ga": 2,
-          "pts": 3
+          "pts": 4
         },
         {
           "id": "cro",
           "name": "Croacia",
           "cc": "hr",
-          "played": 1,
-          "won": 0,
+          "played": 2,
+          "won": 1,
           "drawn": 0,
           "lost": 1,
-          "gf": 2,
+          "gf": 3,
           "ga": 4,
-          "pts": 0
+          "pts": 3
         },
         {
           "id": "pan",
           "name": "Panamá",
           "cc": "pa",
-          "played": 1,
+          "played": 2,
           "won": 0,
           "drawn": 0,
-          "lost": 1,
+          "lost": 2,
           "gf": 0,
-          "ga": 1,
+          "ga": 2,
           "pts": 0
         },
         {
           "id": "gha",
           "name": "Ghana",
           "cc": "gh",
-          "played": 1,
+          "played": 2,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "gf": 1,
           "ga": 0,
-          "pts": 3
+          "pts": 4
         }
       ]
     }
