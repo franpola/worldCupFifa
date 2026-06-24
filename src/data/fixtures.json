@@ -639,7 +639,8 @@
     "time": "23:00",
     "venue": "Estadio Boston",
     "scoreHome": 0,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=nlghqbCqbe0"
   },
   {
     "id": 47,
@@ -652,7 +653,8 @@
     "time": "02:00",
     "venue": "Estadio Toronto",
     "scoreHome": 0,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=VTWsHnTluPY"
   },
   {
     "id": 48,
