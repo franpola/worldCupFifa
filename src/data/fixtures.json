@@ -680,8 +680,8 @@
     "date": "2026-06-24",
     "time": "22:00",
     "venue": "Estadio BC Place Vancouver",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 3,
+    "scoreAway": 1
   },
   {
     "id": 50,
@@ -693,8 +693,8 @@
     "date": "2026-06-24",
     "time": "22:00",
     "venue": "Estadio Seattle",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 2,
+    "scoreAway": 1
   },
   {
     "id": 51,

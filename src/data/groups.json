@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-24T20:15:27.412Z",
+  "lastUpdated": "2026-06-24T21:51:35.942Z",
   "groups": {
     "A": {
       "teams": [
@@ -60,48 +60,48 @@
           "id": "can",
           "name": "Canadá",
           "cc": "ca",
-          "played": 2,
+          "played": 3,
           "won": 1,
           "drawn": 1,
-          "lost": 0,
-          "gf": 7,
-          "ga": 1,
+          "lost": 1,
+          "gf": 8,
+          "ga": 3,
           "pts": 4
         },
         {
           "id": "bih",
           "name": "Bosnia",
           "cc": "ba",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 1,
           "lost": 1,
-          "gf": 2,
-          "ga": 5,
-          "pts": 1
+          "gf": 5,
+          "ga": 6,
+          "pts": 4
         },
         {
           "id": "sui",
           "name": "Suiza",
           "cc": "ch",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "gf": 5,
-          "ga": 2,
-          "pts": 4
+          "gf": 7,
+          "ga": 3,
+          "pts": 7
         },
         {
           "id": "qat",
           "name": "Qatar",
           "cc": "qa",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 1,
-          "lost": 1,
-          "gf": 1,
-          "ga": 7,
+          "lost": 2,
+          "gf": 2,
+          "ga": 10,
           "pts": 1
         }
       ]
