@@ -709,7 +709,8 @@
     "time": "01:00",
     "venue": "Estadio Miami",
     "scoreHome": 4,
-    "scoreAway": 2
+    "scoreAway": 2,
+    "summaryUrl": "https://www.youtube.com/watch?v=_w_-yguiVWg"
   },
   {
     "id": 52,
@@ -722,7 +723,8 @@
     "time": "01:00",
     "venue": "Estadio Atlanta",
     "scoreHome": 0,
-    "scoreAway": 3
+    "scoreAway": 3,
+    "summaryUrl": "https://www.youtube.com/watch?v=-UuYHN-jMmI"
   },
   {
     "id": 53,
