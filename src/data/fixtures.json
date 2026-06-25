@@ -764,8 +764,8 @@
     "date": "2026-06-25",
     "time": "23:00",
     "venue": "Estadio Filadelfia",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 2
   },
   {
     "id": 56,
@@ -777,8 +777,8 @@
     "date": "2026-06-25",
     "time": "23:00",
     "venue": "Estadio Nueva York-Nueva Jersey",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 2,
+    "scoreAway": 1
   },
   {
     "id": 57,
