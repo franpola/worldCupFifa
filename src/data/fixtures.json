@@ -736,8 +736,8 @@
     "date": "2026-06-24",
     "time": "04:00",
     "venue": "Estadio Ciudad de México",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 3
   },
   {
     "id": 54,
@@ -749,8 +749,8 @@
     "date": "2026-06-24",
     "time": "04:00",
     "venue": "Estadio Monterrey",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 0
   },
   {
     "id": 55,
