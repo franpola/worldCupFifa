@@ -708,8 +708,8 @@
     "date": "2026-06-24",
     "time": "01:00",
     "venue": "Estadio Miami",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 4,
+    "scoreAway": 2
   },
   {
     "id": 52,
@@ -721,8 +721,8 @@
     "date": "2026-06-24",
     "time": "01:00",
     "venue": "Estadio Atlanta",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 3
   },
   {
     "id": 53,
