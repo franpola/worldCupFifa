@@ -737,7 +737,8 @@
     "time": "04:00",
     "venue": "Estadio Ciudad de México",
     "scoreHome": 0,
-    "scoreAway": 3
+    "scoreAway": 3,
+    "summaryUrl": "https://www.youtube.com/watch?v=q9bztXgLAZg"
   },
   {
     "id": 54,
@@ -750,7 +751,8 @@
     "time": "04:00",
     "venue": "Estadio Monterrey",
     "scoreHome": 1,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=J3lTiHdKHEU"
   },
   {
     "id": 55,
