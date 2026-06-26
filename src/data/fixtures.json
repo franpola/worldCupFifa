@@ -848,8 +848,8 @@
     "date": "2026-06-26",
     "time": "22:00",
     "venue": "Estadio Boston",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 4
   },
   {
     "id": 62,
@@ -861,8 +861,8 @@
     "date": "2026-06-26",
     "time": "22:00",
     "venue": "Estadio Toronto",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 5,
+    "scoreAway": 0
   },
   {
     "id": 63,
