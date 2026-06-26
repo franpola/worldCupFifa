@@ -820,8 +820,8 @@
     "date": "2026-06-25",
     "time": "05:00",
     "venue": "Estadio Los Ángeles",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 0
   },
   {
     "id": 60,
@@ -833,8 +833,8 @@
     "date": "2026-06-25",
     "time": "05:00",
     "venue": "Estadio Bahía de San Francisco",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 3,
+    "scoreAway": 2
   },
   {
     "id": 61,
