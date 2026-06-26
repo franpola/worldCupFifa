@@ -793,7 +793,8 @@
     "time": "02:00",
     "venue": "Estadio Dallas",
     "scoreHome": 1,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=hGPApx-UGpU"
   },
   {
     "id": 58,
@@ -806,7 +807,8 @@
     "time": "02:00",
     "venue": "Estadio Kansas City",
     "scoreHome": 1,
-    "scoreAway": 3
+    "scoreAway": 3,
+    "summaryUrl": "https://www.youtube.com/watch?v=Ephmzzp6cpI"
   },
   {
     "id": 59,
