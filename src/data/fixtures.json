@@ -792,8 +792,8 @@
     "date": "2026-06-25",
     "time": "02:00",
     "venue": "Estadio Dallas",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 1
   },
   {
     "id": 58,
@@ -805,8 +805,8 @@
     "date": "2026-06-25",
     "time": "02:00",
     "venue": "Estadio Kansas City",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 3
   },
   {
     "id": 59,
