@@ -821,7 +821,8 @@
     "time": "05:00",
     "venue": "Estadio Los Ángeles",
     "scoreHome": 0,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=6Q5uu5oHqmg"
   },
   {
     "id": 60,
@@ -834,7 +835,8 @@
     "time": "05:00",
     "venue": "Estadio Bahía de San Francisco",
     "scoreHome": 3,
-    "scoreAway": 2
+    "scoreAway": 2,
+    "summaryUrl": "https://www.youtube.com/watch?v=cAPDyiaRHVg"
   },
   {
     "id": 61,
