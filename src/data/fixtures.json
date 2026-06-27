@@ -876,8 +876,8 @@
     "date": "2026-06-26",
     "time": "03:00",
     "venue": "Estadio Houston",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 0
   },
   {
     "id": 64,
@@ -889,8 +889,8 @@
     "date": "2026-06-26",
     "time": "03:00",
     "venue": "Estadio Guadalajara",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 1
   },
   {
     "id": 65,
@@ -902,8 +902,8 @@
     "date": "2026-06-26",
     "time": "06:00",
     "venue": "Estadio Seattle",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 1
   },
   {
     "id": 66,
@@ -915,8 +915,8 @@
     "date": "2026-06-26",
     "time": "06:00",
     "venue": "Estadio BC Place Vancouver",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 5
   },
   {
     "id": 67,
