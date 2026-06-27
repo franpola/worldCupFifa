@@ -877,7 +877,8 @@
     "time": "03:00",
     "venue": "Estadio Houston",
     "scoreHome": 0,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=qoZF1uXsPqU"
   },
   {
     "id": 64,
@@ -890,7 +891,8 @@
     "time": "03:00",
     "venue": "Estadio Guadalajara",
     "scoreHome": 0,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=7gaK3ySCzZs"
   },
   {
     "id": 65,
@@ -903,7 +905,8 @@
     "time": "06:00",
     "venue": "Estadio Seattle",
     "scoreHome": 1,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=SQ2R8dAEJV8"
   },
   {
     "id": 66,
@@ -916,7 +919,8 @@
     "time": "06:00",
     "venue": "Estadio BC Place Vancouver",
     "scoreHome": 1,
-    "scoreAway": 5
+    "scoreAway": 5,
+    "summaryUrl": "https://www.youtube.com/watch?v=O1Jds8HiFAY"
   },
   {
     "id": 67,
