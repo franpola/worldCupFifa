@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-28T01:31:38.055Z",
+  "lastUpdated": "2026-06-28T09:39:26.442Z",
   "groups": {
     "A": {
       "teams": [
@@ -476,48 +476,48 @@
           "id": "arg",
           "name": "Argentina",
           "cc": "ar",
-          "played": 2,
-          "won": 2,
+          "played": 3,
+          "won": 3,
           "drawn": 0,
           "lost": 0,
-          "gf": 5,
-          "ga": 0,
-          "pts": 6
+          "gf": 8,
+          "ga": 1,
+          "pts": 9
         },
         {
           "id": "aut",
           "name": "Austria",
           "cc": "at",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "gf": 3,
-          "ga": 3,
-          "pts": 3
+          "gf": 6,
+          "ga": 6,
+          "pts": 4
         },
         {
           "id": "alg",
           "name": "Argelia",
           "cc": "dz",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 1,
-          "gf": 2,
-          "ga": 4,
-          "pts": 3
+          "gf": 5,
+          "ga": 7,
+          "pts": 4
         },
         {
           "id": "jor",
           "name": "Jordania",
           "cc": "jo",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "gf": 2,
-          "ga": 5,
+          "lost": 3,
+          "gf": 3,
+          "ga": 8,
           "pts": 0
         }
       ]
@@ -552,25 +552,25 @@
           "id": "uzb",
           "name": "Uzbekistán",
           "cc": "uz",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
-          "gf": 1,
-          "ga": 8,
+          "lost": 3,
+          "gf": 2,
+          "ga": 11,
           "pts": 0
         },
         {
           "id": "cod",
           "name": "R.D. Congo",
           "cc": "cd",
-          "played": 2,
-          "won": 0,
+          "played": 3,
+          "won": 1,
           "drawn": 1,
           "lost": 1,
-          "gf": 1,
-          "ga": 2,
-          "pts": 1
+          "gf": 4,
+          "ga": 3,
+          "pts": 4
         }
       ]
     },

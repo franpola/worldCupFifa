@@ -974,8 +974,8 @@
     "date": "2026-06-27",
     "time": "02:30",
     "venue": "Estadio Atlanta",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 3,
+    "scoreAway": 1
   },
   {
     "id": 71,
@@ -987,8 +987,8 @@
     "date": "2026-06-27",
     "time": "05:00",
     "venue": "Estadio Kansas City",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 3,
+    "scoreAway": 3
   },
   {
     "id": 72,
@@ -1000,7 +1000,7 @@
     "date": "2026-06-27",
     "time": "05:00",
     "venue": "Estadio Dallas",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 1,
+    "scoreAway": 3
   }
 ]
