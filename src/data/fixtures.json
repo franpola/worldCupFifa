@@ -933,7 +933,8 @@
     "time": "00:00",
     "venue": "Estadio Nueva York-Nueva Jersey",
     "scoreHome": 2,
-    "scoreAway": 1
+    "scoreAway": 1,
+    "summaryUrl": "https://www.youtube.com/watch?v=SRUBapryAes"
   },
   {
     "id": 68,
@@ -946,7 +947,8 @@
     "time": "00:00",
     "venue": "Estadio Filadelfia",
     "scoreHome": 0,
-    "scoreAway": 2
+    "scoreAway": 2,
+    "summaryUrl": "https://www.youtube.com/watch?v=nX0_ql5mU_I"
   },
   {
     "id": 69,
@@ -959,7 +961,8 @@
     "time": "02:30",
     "venue": "Estadio Miami",
     "scoreHome": 0,
-    "scoreAway": 0
+    "scoreAway": 0,
+    "summaryUrl": "https://www.youtube.com/watch?v=8smPEMLDrgo"
   },
   {
     "id": 70,
