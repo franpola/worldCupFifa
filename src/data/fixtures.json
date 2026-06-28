@@ -932,8 +932,8 @@
     "date": "2026-06-27",
     "time": "00:00",
     "venue": "Estadio Nueva York-Nueva Jersey",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 2,
+    "scoreAway": 1
   },
   {
     "id": 68,
@@ -945,8 +945,8 @@
     "date": "2026-06-27",
     "time": "00:00",
     "venue": "Estadio Filadelfia",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 2
   },
   {
     "id": 69,
@@ -958,8 +958,8 @@
     "date": "2026-06-27",
     "time": "02:30",
     "venue": "Estadio Miami",
-    "scoreHome": null,
-    "scoreAway": null
+    "scoreHome": 0,
+    "scoreAway": 0
   },
   {
     "id": 70,

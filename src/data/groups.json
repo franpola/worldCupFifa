@@ -1,6 +1,6 @@
 {
   "tournament": "FIFA World Cup 2026",
-  "lastUpdated": "2026-06-27T21:35:30.727Z",
+  "lastUpdated": "2026-06-28T01:31:38.055Z",
   "groups": {
     "A": {
       "teams": [
@@ -528,25 +528,25 @@
           "id": "col",
           "name": "Colombia",
           "cc": "co",
-          "played": 2,
+          "played": 3,
           "won": 2,
-          "drawn": 0,
+          "drawn": 1,
           "lost": 0,
           "gf": 4,
           "ga": 1,
-          "pts": 6
+          "pts": 7
         },
         {
           "id": "por",
           "name": "Portugal",
           "cc": "pt",
-          "played": 2,
+          "played": 3,
           "won": 1,
-          "drawn": 1,
+          "drawn": 2,
           "lost": 0,
           "gf": 6,
           "ga": 1,
-          "pts": 4
+          "pts": 5
         },
         {
           "id": "uzb",
@@ -580,48 +580,48 @@
           "id": "eng",
           "name": "Inglaterra",
           "cc": "gb-eng",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 1,
           "lost": 0,
-          "gf": 4,
+          "gf": 6,
           "ga": 2,
-          "pts": 4
+          "pts": 7
         },
         {
           "id": "cro",
           "name": "Croacia",
           "cc": "hr",
-          "played": 2,
-          "won": 1,
+          "played": 3,
+          "won": 2,
           "drawn": 0,
           "lost": 1,
-          "gf": 3,
-          "ga": 4,
-          "pts": 3
+          "gf": 5,
+          "ga": 5,
+          "pts": 6
         },
         {
           "id": "pan",
           "name": "Panamá",
           "cc": "pa",
-          "played": 2,
+          "played": 3,
           "won": 0,
           "drawn": 0,
-          "lost": 2,
+          "lost": 3,
           "gf": 0,
-          "ga": 2,
+          "ga": 4,
           "pts": 0
         },
         {
           "id": "gha",
           "name": "Ghana",
           "cc": "gh",
-          "played": 2,
+          "played": 3,
           "won": 1,
           "drawn": 1,
-          "lost": 0,
-          "gf": 1,
-          "ga": 0,
+          "lost": 1,
+          "gf": 2,
+          "ga": 2,
           "pts": 4
         }
       ]
